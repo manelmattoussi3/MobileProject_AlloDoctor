@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center_horizontal"
+    android:overScrollMode="never"
+    android:scrollbars="none"
+    android:background="#fff"
+    tools:context=".SendOtpActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:orientation="vertical">
+
+        <ImageView
+            android:id="@+id/slider_image"
+            android:layout_width="130dp"
+            android:layout_height="130dp"
+            android:layout_marginTop="80dp"
+            android:src="@drawable/recipient"
+            />
+
+
+        <TextView
+            android:transitionName="logo_text"
+            android:id="@+id/logo_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+
+            android:text="OTP Verification"
+            android:textSize="20sp"
+            android:textColor="@color/black"
+            android:fontFamily="@font/bungee"/>
+        <TextView
+            android:id="@+id/slider_desc"
+            android:layout_width="320dp"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:layout_marginTop="12dp"
+            android:textColor="@color/primary_text_light"
+            android:fontFamily="@font/robotoblack"
+            android:text="We will send you a code on this phone number"
+            android:textSize="14sp"
+            />
+
+
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/img"
+            />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="30dp"
+            android:layout_marginEnd="30dp"
+            android:layout_marginTop="50dp"
+            android:gravity="center"
+            android:text="Enter Mobile Number"
+            android:textSize="14sp"
+            android:fontFamily="@font/robotoblack"
+
+            />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="60dp"
+            android:layout_marginEnd="60dp"
+            android:gravity="center"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="40dp"
+                android:gravity="center"
+                android:text="+216-"
+                android:textColor="@color/primary_text"
+                android:fontFamily="@font/robotoblack"
+                android:textSize="16sp"
+                android:textStyle="bold"/>
+
+            <EditText
+                android:layout_width="wrap_content"
+                android:layout_height="40dp"
+                android:id="@+id/input_mobile"
+                android:background="@null"
+                android:hint="50709483"
+                android:fontFamily="@font/robotoblack"
+
+                android:imeOptions="actionDone"
+                android:importantForAutofill="no"
+                android:textColor="@color/primary_text_light"
+
+                android:textSize="16sp"
+                android:textStyle="bold"
+                android:inputType="phone"/>
+
+
+        </LinearLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="2dp"
+            android:layout_marginStart="70dp"
+            android:layout_marginTop="8dp"
+            android:layout_marginEnd="70dp"
+            android:background="@color/divider"/>
+
+
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <androidx.appcompat.widget.AppCompatButton
+                android:id="@+id/get_otp_btn"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="30dp"
+                android:background="@drawable/btn_rounded_login"
+                android:text="GET OTP"
+                android:textStyle="bold"
+                android:textSize="16sp"
+                android:textColor="@color/white" />
+        </FrameLayout>
+        <ProgressBar
+            android:id="@+id/progressBar"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_gravity="center"
+            android:visibility="gone"
+            />
+
+
+
+    </LinearLayout>
+
+
+
+
+
+</ScrollView>

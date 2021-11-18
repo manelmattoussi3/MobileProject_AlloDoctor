@@ -1,0 +1,56 @@
+<resources>
+    <string name="slog_name">We will help you to find your way!</string>
+    <string name="logo_name">Allo Doctor</string>
+    <string name="poweredby">Powered By Allo Doctor</string>
+    <string name="search_text">Search ...</string>
+    <string name="featured_description">Sanitary features of the well considered were lining, apron, cover and water drawing buckets</string>
+    <string name="app_name">MyDoctor</string>
+    <string name="button_signIn">Sign In</string>
+    <string name="hint_email">Email</string>
+    <string name="hint_password">Password</string>
+    <string name="hint_fullname">Fullname</string>
+    <string name="hint_username">Username</string>
+    <string name="hint_phoneNumber">Phone number</string>
+    <string name="hint_address">Address</string>
+    <string name="title_activity_forgot_password">Forgot Password</string>
+    <string name="button_dontHaveAccount">Do not have an account yet?</string>
+    <string name="button_signUp">REGISTER</string>
+    <string name="lang_dialog_title">Change Language</string>
+    <string name="button_haveAccount">Already have an account?</string>
+    <string name="title_activity_welcome">Map</string>
+
+
+    <!--</string>-->
+    <string name="title_activity_home">Home</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+    <!--Titles-->
+    <string name="first_slide_title">Search Your Doctor</string>
+    <string name="second_slide_title">Make A Call</string>
+    <string name="third_slide_title">Book AnyTime</string>
+
+    <!--Descriptions-->
+    <string name="first_slide_desc">
+        You can search any doctor nearby or with-in the specified informations. We will display specific or all related doctors to match your search. </string>
+    <string name="second_slide_desc">Call Doctor delivers services 24 hours a day, 7 days a week, 365 days a year, even including public/private sector holidays to any place where you are (home, ...
+</string>
+    <string name="third_slide_desc">
+Find the right doctor online in your suburb and book the next available appointment instantly. Check the opening hours and address of your doctor or medical ...
+    </string>
+    <string name="fourth_slide_desc">We will handle everything for you. As you have the app in your pocket then you don\'t have to worry about anything.  </string>
+    <!--Buttons-->
+    <string name="skip_btn">Skip</string>
+    <string name="next_btn">Next</string>
+    <string name="let_get_started">Lets Get Started</string>
+    <string name="error_valid_email_password">Wrong Email or Password</string>
+    <string name="error_null_input_message">Please insert usernme or password</string>
+
+    <string name="about_doctor">A physician, medical practitioner, medical doctor, or simply doctor, is a professional who practices medicine, which is concerned with promoting, maintaining or restoring health through the study, diagnosis, prognosis and treatment of disease, injury, and other physical and mental impairments</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+</resources>

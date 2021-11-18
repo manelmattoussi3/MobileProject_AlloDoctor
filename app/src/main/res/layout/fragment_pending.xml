@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fitsSystemWindows="true"
+    tools:context=".BStatusActivity"
+    android:background="@color/white">
+
+
+        <com.mancj.materialsearchbar.MaterialSearchBar
+            android:layout_width="match_parent"
+            android:layout_height="80dp"
+            app:mt_hint="Search Patient"
+            app:mt_speechMode="false"
+            android:layout_alignParentTop="true"
+            android:id="@+id/search_bar"/>
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:layout_below="@+id/search_bar"
+        android:id="@+id/pending_recycler"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fitsSystemWindows="true"
+        android:layoutAnimation="@anim/layout_fall_down"
+        android:scrollbars="vertical"
+        android:theme="@style/AppTheme.AppBarOverlay"
+        app:layout_behavior="@string/appbar_scrolling_view_behavior" />
+</RelativeLayout>

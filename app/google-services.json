@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "611237095183",
+    "project_id": "allo-doctor-android-studio",
+    "storage_bucket": "allo-doctor-android-studio.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:611237095183:android:b09c5922df01dc4ba5807a",
+        "android_client_info": {
+          "package_name": "tn.esprit.doctormobile"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "611237095183-5o1c0onqffo4dm9logh8sggsqh9443ha.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "tn.esprit.doctormobile",
+            "certificate_hash": "1209271f007f1567c29003717a349ebe0c9abae8"
+          }
+        },
+        {
+          "client_id": "611237095183-369lcfodd5no5hqk6vdfiguvmeeun1ng.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCmfTD39hsM5CNCNHGO5-F6qp8BaEdQYPA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "611237095183-369lcfodd5no5hqk6vdfiguvmeeun1ng.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
